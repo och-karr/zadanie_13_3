@@ -44,7 +44,7 @@ process.stdin.on('readable', function() {
                 console.log(process.env.LANG);
                 break;
             default:
-                process.stderr.write('Wrong instruction!'); //informacja o bledach w konsoli
+                process.stderr.write('Wrong instruction!\n'); //informacja o bledach w konsoli
             }
     }
 });
